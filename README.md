@@ -6,10 +6,10 @@ recognition system. Immediate applications of the digit recognition techniques i
 code reading, vehicle’s number plate and bank check processing etc
 
 ## OBJECTIVES
-● To provide an easy user interface to input the object image.
-● User should be able to save the image.
-● System should be able to pre-process the given input to suppress the background.
-● System should recognize digit present in the image and display them to the user.
+* To provide an easy user interface to input the object image.
+* User should be able to save the image.
+* System should be able to pre-process the given input to suppress the background.
+* System should recognize digit present in the image and display them to the user.
 
 ## [SUPERVISED LEARNING](https://www.mathworks.com/discovery/supervised-learning.html)
 It is the machine learning task of inferring a function from labeled training data. The training
@@ -48,10 +48,10 @@ fast and easy way to create GUI applications. Tkinter provides a powerful object
 interface to the Tk GUI toolkit.
 Creating a GUI application using Tkinter is an easy task. All you need to do is perform the
 following steps −
-● Import the Tkinter module.
-● Create the GUI application main window.
-● Add one or more of the above-mentioned widgets to the GUI application.
-● Enter the main event loop to take action against each event triggered by the user
+* Import the Tkinter module.
+* Create the GUI application main window.
+* Add one or more of the above-mentioned widgets to the GUI application.
+* Enter the main event loop to take action against each event triggered by the user
 
 ## Implementation
 **Training**
