@@ -1,17 +1,17 @@
-#Digit-recognition-using-Neural-networks
+# Digit-recognition-using-Neural-networks
 
-##PROBLEM DEFINITION
+## PROBLEM DEFINITION
 Handwritten Digit Recognition is one of the most fundamental problems in designing practical
 recognition system. Immediate applications of the digit recognition techniques include, address
 code reading, vehicle’s number plate and bank check processing etc
 
-##OBJECTIVES
+## OBJECTIVES
 ● To provide an easy user interface to input the object image.
 ● User should be able to save the image.
 ● System should be able to pre-process the given input to suppress the background.
 ● System should recognize digit present in the image and display them to the user.
 
-##[SUPERVISED LEARNING](https://www.mathworks.com/discovery/supervised-learning.html)
+## [SUPERVISED LEARNING](https://www.mathworks.com/discovery/supervised-learning.html)
 It is the machine learning task of inferring a function from labeled training data. The training
 data consist of a set of training examples. In supervised learning, each example is
 a pair consisting of an input object (typically a vector) and a desired output value (also called
@@ -21,11 +21,11 @@ allow for the algorithm to correctly determine the class labels for unseen insta
 the learning algorithm to generalize from the training data to unseen situations in a "reasonable"
 way.
 
-##[MNIST DATASET](http://yann.lecun.com/exdb/mnist/)
+## [MNIST DATASET](http://yann.lecun.com/exdb/mnist/)
 The MNIST problem is a dataset developed by Yann LeCun, Corinna Cortes and Christopher
 Burges for evaluating machine learning models on the handwritten digit classification problem.
 
-##[TENSORFLOW](https://www.tensorflow.org/)
+## [TENSORFLOW](https://www.tensorflow.org/)
 TensorFlow is an open source software library for numerical computation using data flow
 graphs. Nodes in the graph represent mathematical operations, while the graph edges represent
 the multidimensional data arrays (tensors) communicated between them. The flexible
@@ -36,13 +36,13 @@ research organization for the purposes of conducting machine learning and deep n
 research, but the system is general enough to be applicable in a wide variety of other domains as
 well.
 
-##[KERAS](https://keras.io/)
+## [KERAS](https://keras.io/)
 Keras is a high-level neural networks API, written in Python and capable of running on top of
 either TensorFlow or Theano. It was developed with a focus on enabling fast experimentation. 
 Being able to go from idea to result with the least possible delay is key to doing
 good research.
 
-##[TKINTER](https://docs.python.org/3/library/tkinter.html) 
+## [TKINTER](https://docs.python.org/3/library/tkinter.html) 
 Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a
 fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented
 interface to the Tk GUI toolkit.
@@ -53,7 +53,7 @@ following steps −
 ● Add one or more of the above-mentioned widgets to the GUI application.
 ● Enter the main event loop to take action against each event triggered by the user
 
-##Implementation
+## Implementation
 **Training**
 1. Split the data set into a training set and a test set. Normally the training set is larger than the
 test set. Often the desired outputs have to be normalized to the range [0: 1] since the sigmoid
