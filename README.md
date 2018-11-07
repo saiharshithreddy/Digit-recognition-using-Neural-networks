@@ -5,6 +5,10 @@ Handwritten Digit Recognition is one of the most fundamental problems in designi
 recognition system. Immediate applications of the digit recognition techniques include, address
 code reading, vehicle’s number plate and bank check processing etc
 
+![GUI](1.PNG)
+![Enter a number](2.PNG)
+![Output](3.PNG)
+
 ## OBJECTIVES
 * To provide an easy user interface to input the object image.
 * User should be able to save the image.
