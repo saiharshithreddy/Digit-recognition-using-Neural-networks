@@ -53,26 +53,27 @@ error at the output layer.
 stopping criterion is reached, for example that the error falls below a predefined value. The one-
 time presentation of the entire set of training patterns to the net constitutes a training epoch.
 
-**Testing**
-After terminating the training phase the trained net is tested with new, unseen patterns from the
-test data set. The patterns are forward propagated, using the weights now available from training,
-and the error at the output layer is determined (no weight-update is performed!). If performance
-is sufficiently good, the net is ready-for- use. If not, it has to be retrained with the same patterns
+**Testing**  
+1. After terminating the training phase the trained net is tested with new, unseen patterns from the
+test data set.
+2. The patterns are forward propagated, using the weights now available from training,
+and the error at the output layer is determined (no weight-update is performed!). 
+3. If performance is sufficiently good, the net is ready-for- use. If not, it has to be retrained with the same patterns
 and parameters or something has to be changed (e.g. number of hidden neurons, additional input
-patterns, different kinds of information contained in the input patterns). It is also important that
-the net not be "over trained": if it is trained for too many epochs it starts "memorizing" the
-training patterns and can no longer recognize patterns other than those it was explicitly trained
-for. This effect can be compared to the over fitting of a discretely sampled function. In summary
-the goal of training a neural network is that it is able to generalize. This means that it only
+patterns, different kinds of information contained in the input patterns).
+4. It is also important that the net not be "over trained": if it is trained for too many epochs it starts "memorizing" the
+training patterns and can no longer recognize patterns other than those it was explicitly trained for. 
+5. This effect can be compared to the over fitting of a discretely sampled function. 
+6. In summary the goal of training a neural network is that it is able to generalize. This means that it only
 extracts some important features of the data and thus also classifies slightly differing patterns to
 belong to the same class. This also provides robustness in the presence of noise
 
-**Preprocessing**
+**Preprocessing**  
 The purpose of preprocessing is to discard irrelevant information in the input data that can
 negatively affect the recognition. This concerns speed and accuracy. Preprocessing usually
 consists of scaling, binarization, normalization.
 
-**Predication**
+**Predication**  
 The digit in the image is predicted and displayed.
 
 
