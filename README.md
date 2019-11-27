@@ -8,7 +8,7 @@ code reading, vehicle’s number plate and bank check processing etc
 **Steps:**  
 1. Install requirements
 ```python
-python requirements.txt
+pip install -r requirements.txt
 ```
 2. Predict the output
 ```python
